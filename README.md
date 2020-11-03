@@ -1,21 +1,6 @@
 # MVC ANIMAL 
 
-**INFO :**
-```
- index.js -----> controller  -------
-                                   |
-                                   v
-  view  <--- controller  <----  model
-```
-
-class Animal 
-- nama 
-- type  
-- height 
-- weight 
-- age
-- healthStatus
-
+Buatlah fitur command line pada repo ini dengan __argv__ seperti berikut : 
 ```
 Commands : 
 $ node index.js help
@@ -25,6 +10,27 @@ $ node index.js delete <id>
 $ node index.js isHealthy <id>
 $ node index.js isUnhealthy <id>
 ```
+
+Dengan menggunakan design pattern **MVC** (Model View Controller) tentu dengan OOP!  
+data-data binatang akan di simpan pada file pets.json dengan menggunakan **fs**  
+Tiap data memiliki informasi berikut : 
+- id (number)
+- nama (string)
+- type  (string)
+- height (number)
+- weight (number)
+- age (number)
+- healthStatus (boolean)
+
+ 
+**INFO :**
+```
+ index.js -----> controller  -------
+                                   |
+                                   v
+  view  <--- controller  <----  model
+```
+<br><br>
 
 ## RELEASE 0 
 
@@ -41,6 +47,9 @@ Output :
     $ node index.js isUnhealthy <id>
 ```
 untuk `node index.js` juga menampilkan hal yang sama 
+
+<br><br>
+
 
 ## REALEASE 1 
 > $ node index.js read
@@ -62,6 +71,9 @@ etc..
 ## RELEASE 2 
 > $ node index.js create <name> <type> <height> <weight> <age> <healthStatus>
 
+Saat create pastikan id kamu auto increment!  
+semua input di sesuaikan typenya seperti diketahui healStatus adalah boolean dan beberapa ada yang bertype number.  
+
 Example :  
 node index.js create PomPom Turtle 3 0 3 false
 
@@ -70,6 +82,8 @@ Output
 ```
 Berhasil menambahkan hewan dengan nama "PomPom". Sekarang total data adalah 2. 
 ```
+<br><br>
+
 
 ## RELEASE 3
 > $ node index.js delete <id>
@@ -88,6 +102,7 @@ Untuk id yang tidak ditemukan, outputnya :
 ```
 DATA WITH ID 100 IS NOT FOUND
 ```
+<br><br>
 
 
 ### RELEASE 4

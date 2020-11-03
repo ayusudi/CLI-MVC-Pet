@@ -1,0 +1,11 @@
+[
+  {
+    "id": 1,
+    "name": "Pompom",
+    "type": "Cat",
+    "height": 35,
+    "weight": 5,
+    "age": 6,
+    "healthStatus": false
+  }
+]
