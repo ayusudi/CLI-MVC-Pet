@@ -36,6 +36,7 @@ Tiap data memiliki informasi berikut :
 
 > $ node index.js help  
 
+untuk `node index.js` juga menampilkan hal yang sama.  
 Output : 
 ```
     Commands : 
@@ -46,11 +47,7 @@ Output :
     $ node index.js isHealthy <id>
     $ node index.js isUnhealthy <id>
 ```
-untuk `node index.js` juga menampilkan hal yang sama 
-
-<br><br>
-
-
+<br>
 ## REALEASE 1 
 > $ node index.js read
 ```
@@ -67,7 +64,7 @@ ID.  Name,   Infomation
 4. Hewan3, HeathStatus : status3
 etc..
 ```
-<br><br>
+<br>
 
 ## RELEASE 2 
 > $ node index.js create <name> <type> <height> <weight> <age> <healthStatus>
@@ -83,8 +80,7 @@ Output
 ```
 Berhasil menambahkan hewan dengan nama "PomPom". Sekarang total data adalah 2. 
 ```
-<br><br>
-
+<br>
 
 ## RELEASE 3
 > $ node index.js delete <id>
@@ -103,8 +99,7 @@ Untuk id yang tidak ditemukan, outputnya :
 ```
 DATA WITH ID 100 IS NOT FOUND
 ```
-<br><br>
-
+<br>
 
 ## RELEASE 4
 
