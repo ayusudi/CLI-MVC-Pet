@@ -67,6 +67,7 @@ ID.  Name,   Infomation
 4. Hewan3, HeathStatus : status3
 etc..
 ```
+<br><br>
 
 ## RELEASE 2 
 > $ node index.js create <name> <type> <height> <weight> <age> <healthStatus>
@@ -105,7 +106,7 @@ DATA WITH ID 100 IS NOT FOUND
 <br><br>
 
 
-### RELEASE 4
+## RELEASE 4
 
 > $ node index.js isHealthy <id>
 
