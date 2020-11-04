@@ -113,7 +113,7 @@ node index.js isHealthy 2
 4. Luffy, healthStatus ❌
 ```
 
-> $ node index.js isHealthy <id>
+> $ node index.js isUnhealthy <id>
 
 
 Example : 
