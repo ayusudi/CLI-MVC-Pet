@@ -34,7 +34,7 @@ Tiap data memiliki informasi berikut :
 
 ## RELEASE 0 
 
-> $ node index.js help  
+> $ node index.js help
 
 untuk `node index.js` juga menampilkan hal yang sama.  
 Output : 
@@ -48,8 +48,11 @@ Output :
     $ node index.js isUnhealthy <id>
 ```
 <br>
+
 ## REALEASE 1 
+
 > $ node index.js read
+
 ```
 ID.  Name,   Infomation
 1. Luffy, HeathStatus : false
@@ -67,6 +70,7 @@ etc..
 <br>
 
 ## RELEASE 2 
+
 > $ node index.js create <name> <type> <height> <weight> <age> <healthStatus>
 
 Saat create pastikan id kamu auto increment!  
@@ -83,6 +87,7 @@ Berhasil menambahkan hewan dengan nama "PomPom". Sekarang total data adalah 2.
 <br>
 
 ## RELEASE 3
+
 > $ node index.js delete <id>
 
 Success Example:   
